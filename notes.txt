@@ -1,0 +1,27 @@
+A Python script to organize files into folders based on file extension
+----------------------------------------------------------------------
+1. How It Works
+----------------------------------
+ - Scans the current directory.
+ - For each file 
+          = Checks its extension.
+          = Creates a folder (if it doesn't exist) named after the extension.
+          = Moves the file to that folder.
+ - Ignores .py, .md, .txt files by default.
+
+
+2. Dependencies
+---------------------------------
+ - only requires Python3.
+ - No external packages.
+
+3. Future Improvements
+----------------------------------
+ - Add GUI with 'Tkinter' or PyQt.
+ - Option to select directory
+
+4. Known Issues
+----------------------------------
+ - Files with no extension are not handled.
+
+4. Personal NOTES = This is useful for cleaning download folders
