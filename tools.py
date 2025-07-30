@@ -22,7 +22,7 @@ def clean_folder(target_folder):
 
         
         # Create folder if it doesn't exist
-        ext_folder = os.path.join(ext_folder, filename)
+        ext_folder = os.path.join(target_folder, ext)
         os.makedirs(ext_folder, exist_ok = True)
 
 
